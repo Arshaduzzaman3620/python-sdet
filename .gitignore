@@ -1,0 +1,49 @@
+# ===== Secrets & personal config =====
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+credentials*.json
+*.pem
+*.key
+*.p12
+local_settings.py
+*.local.ini
+# Uncomment to keep your config (endpoint etc.) off GitHub:
+# Api_Test/utilities/properties.ini
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ===== Testing / reports =====
+.pytest_cache/
+.coverage
+htmlcov/
+reports/
+allure-results/
+allure-report/
+*.log
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Claude Code local settings =====
+.claude/settings.local.json
